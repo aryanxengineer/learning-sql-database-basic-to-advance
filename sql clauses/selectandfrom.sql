@@ -13,16 +13,16 @@
 -- FROM orders;
 
 -- column1, column2 -> It selects specific columns from the specified table.
--- SELECT
---     order_id,
---     sales
--- FROM orders;
+SELECT
+    order_id,
+    sales
+FROM orders;
 
 -- Task related to SELECT clause
 -- Retrieve each customer's name, country and score
 
--- SELECT 
---     name,
---     country,
---     score
--- FROM customers;
+SELECT 
+    name,
+    country,
+    score
+FROM customers;
