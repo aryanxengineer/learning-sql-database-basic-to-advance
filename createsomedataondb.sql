@@ -37,3 +37,12 @@
 -- (8, 6, '2024-01-12', 50),
 -- (9, 3, '2024-01-13', 22),
 -- (10, 7, '2024-01-14', 15);
+
+-- Created a persons table
+-- CREATE TABLE persons (
+--     id INT PRIMARY KEY,
+--     username VARCHAR(30),
+--     age INT NULL,
+--     dob DATE NULL
+-- );
+

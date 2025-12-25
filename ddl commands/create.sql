@@ -1,8 +1,11 @@
 /* 
 
-    CREATE:- This command is used to create a new database object such as a table, index, or view.
+    Everything about CREATE:-
+    The CREATE TABLE statement is used to create a new table in a database.
+    It allows you to define the structure of the table, including column names, data types, and constraints.
+    Be cautious when using CREATE TABLE, as it can affect the database schema.
 
-*/ 
+*/
 
 -- Create a new table called 'persons' with columns for id, person_name, birth_date, and phone.
 
