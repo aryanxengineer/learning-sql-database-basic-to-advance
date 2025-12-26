@@ -1,9 +1,12 @@
 /* 
-    Everything about DISTINCT:-
-    The DISTINCT keyword is used to return only distinct (different) values within a column.
-    It eliminates duplicate rows from the result set.
-
-    Don't use DISTINCT unless you need to, as it can add overhead to query performance.
+    Everything about DELETE:-
+    mportant points:
+    - DELETE removes specific rows; use WHERE to specify.
+    - Without WHERE, deletes all rows.
+    - DELETE is DML; can be rolled back in transactions.
+    - Triggers are fired on DELETE.
+    - For all rows, TRUNCATE is faster and DDL (not rollbackable).
+    - Syntax: DELETE FROM table_name WHERE condition;
 
     NOTE: Always use WHERE to avoid deleting all the rows unintentionally
 
